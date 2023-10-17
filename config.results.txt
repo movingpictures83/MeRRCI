@@ -1,0 +1,6 @@
+Plugin FilteringPTR inputfile Parameters/parameters.filteringptr.txt outputfile analysis-out/1-FilteringPTR
+Plugin CorrelationPTR inputfile analysis-out/1-FilteringPTR/PTR_species_filtered_metadata_major.csv outputfile analysis-out/2-CorrelationPTR-Abundance
+Plugin DivideHighLow inputfile analysis-out/1-FilteringPTR/PTR_species_filtered_metadata_major.csv outputfile analysis-out/3-Divide_High-Low/
+Plugin SelectMajorABR inputfile Parameters/parameters.selectmajorabr.txt outputfile analysis-out/4-Select_major_ABR
+Plugin AntibioticBox inputfile analysis-out/3-Divide_High-Low/high-low.csv outputfile analysis-out/
+Plugin HeatmapPTR inputfile analysis-out/2-CorrelationPTR-Abundance/ptr-abundance-corr-groups.csv outputfile analysis-out/Fig2A.png

@@ -1,0 +1,3 @@
+genes	result.genes.txt
+fasta	/biorg/data/DB/KRAKEN2/PTR/FASTA/
+samfile	output.sam

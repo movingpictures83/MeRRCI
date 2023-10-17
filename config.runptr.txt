@@ -1,0 +1,3 @@
+Plugin Bowtie2 inputfile ../../Parameters/parameters.bowtie2.txt outputfile output
+Plugin AbundanceGenomes inputfile ../../Parameters/parameters.abundancegenomes.txt outputfile result
+Plugin BPTR inputfile ../../Parameters/parameters.bptr.txt outputfile ptr

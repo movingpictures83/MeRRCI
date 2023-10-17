@@ -1,0 +1,10 @@
+threads	64
+local	True
+veryfastlocal	True
+nodiscordant	True
+nomixed	True
+nounal	True
+reorder True
+db	kraken_v92
+sequences1	../../FASTQ/input1.fastq
+sequences2	../../FASTQ/input2.fastq

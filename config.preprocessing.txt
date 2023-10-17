@@ -1,0 +1,132 @@
+Prefix pipelines/MeRRCI/
+Plugin IDXClean inputfile /biorg/data/DB/KRAKEN2/PTR/library.fna outputfile library-clean.fna
+Plugin IDXSplit inputfile Parameters/parameters.idxsplit.txt outputfile library-partition_64
+Plugin IDXExtract inputfile /biorg/data/DB/KRAKEN2/PTR/library-clean.fna outputfile FASTA
+Kitty partitions/1
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/2
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/3
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/4
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/5
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/6
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/7
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/8
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/9
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/10
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/11
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/12
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/13
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/14
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/15
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/16
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/17
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/18
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/19
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/20
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/21
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/22
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/23
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/24
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/25
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/26
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/27
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/28
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/29
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/30
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/31
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/32
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/33
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/34
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/35
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/36
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/37
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/38
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/39
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/40
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/41
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/42
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/43
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/44
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/45
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/46
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/47
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/48
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/49
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/50
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/51
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/52
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/53
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/54
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/55
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/56
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/57
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/58
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/59
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/60
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/61
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/62
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/63
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92
+Kitty partitions/64
+Plugin Bowtie2Build inputfile files.txt outputfile kraken_v92

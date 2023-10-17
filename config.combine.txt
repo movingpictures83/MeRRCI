@@ -1,0 +1,2 @@
+Plugin CombinePartitions inputfile partitions outputfile combine_partitions
+Plugin CombineSamples inputfile combine_partitions outputfile final

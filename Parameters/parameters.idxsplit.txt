@@ -1,0 +1,4 @@
+file	/biorg/data/DB/KRAKEN2/PTR/library-clean.fna
+numpartitions	64
+affix	kraken
+version	92

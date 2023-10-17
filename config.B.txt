@@ -1,0 +1,6 @@
+Prefix pipelines/MeRRCI
+#Plugin Blacklist inputfile Parameters/parameters.blacklist.txt outputfile B-out/blacklist.csv
+#Plugin BayesCorrelation inputfile Parameters/parameters.bayescorrelation.txt outputfile B-out/bn_correlation.csv
+#Plugin CausalGraph inputfile Parameters/parameters.causalgraph.txt outputfile B-out/causal
+#Plugin HeatmapCorrelation inputfile B-out/bn_correlation.csv outputfile B-out/heatmap.pdf
+Plugin XGMML inputfile Parameters/parameters.xgmml.txt outputfile style

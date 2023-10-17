@@ -1,0 +1,6 @@
+mergedPTR	A-out/merged_ptr.csv
+intermediate	intermediate_files/
+taxonomyfile	metadata/taxonomy.txt
+mergedabundance	A-out/merged_abundance.csv
+metadatapath	metadata/metadata_gibson.csv
+relevantcolumns	relevant_columns.txt

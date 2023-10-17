@@ -1,0 +1,4 @@
+Prefix pipelines/MeRRCI/
+#Plugin ABRGeneLength inputfile Parameters/parameters.abrgenelength.txt outputfile A-out
+#Plugin SelectTIM inputfile analysis-out/4-Select_major_ABR/PTR_species_filtered_metadata_major_AMR_RPKM.csv outputfile analysis-out/4-Select_major_ABR/abr_tim.csv
+Plugin SelectGeneFamilies inputfile Parameters/parameters.selectgenefamilies.txt outputfile B-out-RPKM/gene_families.csv

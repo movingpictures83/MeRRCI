@@ -1,0 +1,6 @@
+Prefix pipelines/RAPToR/
+#Pipeline pipelines/RAPToR/config.A.txt
+#Plugin TSV2CSV inputfile final.abundance.txt outputfile A-out/merged_abundance.csv
+#Plugin Copy inputfile final.ptr.csv outputfile A-out/merged_ptr.csv
+#Pipeline pipelines/RAPToR/config.results.txt
+Pipeline pipelines/MeRRCI/config.merrci.txt

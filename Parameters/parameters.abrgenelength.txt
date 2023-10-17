@@ -1,0 +1,5 @@
+ABR_FASTA_file	metadata/card-data/nucleotide_fasta_protein_homolog_model.fasta
+selected_ABR_file	A-out/ptr_amr.csv
+causal_input	analysis-out/4-Select_major_ABR/PTR_species_filtered_metadata_major_AMR.csv
+converted_out	analysis-out/4-Select_major_ABR/PTR_species_filtered_metadata_major_AMR_RPKM.csv
+abr_file	A-out/ptr_amr.csv

@@ -1,0 +1,4 @@
+Prefix pipelines/MeRRCI/
+#Pipeline pipelines/MeRRCI/config.preprocessing.txt
+#Pipeline pipelines/MeRRCI/config.ptr.txt
+Pipeline pipelines/MeRRCI/config.combine.txt

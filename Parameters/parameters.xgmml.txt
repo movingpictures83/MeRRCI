@@ -1,0 +1,27 @@
+data_file_name <- "PTR_species_filtered_metadata_major_AMR.csv" #input file
+
+bootfile <- "boot_strength.csv"
+filename_dir <- "directed.csv"
+filename_undir <- "undirected.csv"
+network_csv_file <- "AMR_causal.csv"
+
+# Output:
+bn_correlation <- "bn_correlation.csv"
+con_file_name <- "output_file.xgmml" #output file
+
+data_file_name	analysis-out/4-Select_major_ABR/PTR_species_filtered_metadata_major_AMR.csv
+bootfile	boot_strength.csv
+filename_dir	directed.csv
+filename_undir	undirected.csv
+network_csv_file	B-out/AMR_causal.csv
+triangle
+
+        data_file_name <<- paste(pfix, parameters["data_file_name", 2], sep="/")#"PTR_species_filtered_metadata_major_NANis1.csv" #input file
+        bootfile <<- paste(pfix, parameters["bootfile", 2], sep="/")
+        filename_dir <<- paste(pfix, parameters["filename_dir", 2], sep="/")
+        filename_undir <<- paste(pfix, parameters["filename_undir", 2], sep="/")
+        network_csv_file <<- paste(pfix, parameters["network_csv_file", 2], sep="/")
+        triangle <<- paste(pfix, parameters["triangle", 2], sep="/")
+        diamond <<- paste(pfix ,parameters["diamond", 2], sep="/")
+        star <<- paste(pfix, parameters["star", 2], sep="/")
+
